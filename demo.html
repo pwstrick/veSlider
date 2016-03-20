@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<title>veSlider</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+		<link rel="stylesheet" href="css/veSlider.css"/>
+	</head>
+	<body>
+		<ul class="veSlider" style="height:180px" id="veSlider">
+			<li>
+				<a href="http://www.cnblogs.com/strick/">
+					<img src="img/banner.jpg" width="100%"/>
+				</a>
+			</li>
+			<li>
+				<a href="http://www.cnblogs.com/strick/">
+					<img src="img/banner2.jpg" width="100%"/>
+				</a>
+			</li>
+			<li>
+				<a href="http://www.cnblogs.com/strick/">
+					<img src="img/banner3.jpg" width="100%"/>
+				</a>
+			</li>
+			<li>
+				<a href="http://www.cnblogs.com/strick/">
+					<img src="img/banner4.jpg" width="100%"/>
+				</a>
+			</li>
+		</ul>
+		<script src="js/veSlider.js"></script>
+		<script>
+			var slider = new veSlider({
+				container: document.getElementById('veSlider')
+			});
+		</script>
+	</body>
+</html>
